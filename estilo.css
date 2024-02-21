@@ -1,0 +1,60 @@
+.container-rodape{
+    padding: 30px 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+}
+
+.container-imagem{
+    width: 50px;
+    display: flex;
+}
+
+.container-imagem img{
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+}
+
+.container-contato{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-contato div{
+    padding: 10px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+    flex: 1 1 240px;
+    text-align: center;
+}
+
+.container-descricao{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ a{
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    background-image: url(seta-para-cima.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #dddddd;
+    border-radius: 5px;
+    position: absolute;
+    right: 150px;
+    bottom: 110px;
+}
